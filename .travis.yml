@@ -1,0 +1,5 @@
+script:
+  - ./build.sh
+
+after_success:
+  - ./deploy.sh
